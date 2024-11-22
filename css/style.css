@@ -35,8 +35,7 @@ nav{
     background-color: #daa51e;
     border: 2px solid black;
     height:40px;
-    width:80%;
-    
+    width:80%;   
 }
 
 ul{
@@ -54,7 +53,6 @@ a{
     text-decoration: none;
 }
 
-
 /* contenuto di accesso */
 button{
     /* DEBUG */
@@ -62,4 +60,31 @@ button{
     border: 2px solid black;
     height:40px;
     width:10%;  
+}
+
+
+/* blocco principale */
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #00018b;
+    padding:30px;
+    height:500px;
+    min-width: 300px;
+    border:2px solid black;
+}
+
+.hero{
+    background-color: #ef82ed;
+    flex-basis:50%;
+    border:2px solid black;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.lightgrey{
+    background-color: #d3d3d3;
 }
