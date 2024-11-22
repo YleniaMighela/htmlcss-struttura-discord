@@ -65,26 +65,47 @@ button{
 
 /* blocco principale */
 
-.container{
+ /* regole container */
+#container{
     display: flex;
     justify-content: center;
     background-color: #00018b;
-    padding:30px;
-    height:500px;
-    min-width: 300px;
+    padding:40px;
+    height:400px;
+    /* min-width: 300px; */
     border:2px solid black;
 }
 
+.container-main{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    height:400px;
+
+}
+/* colore contenuto interno prima sezione */
 .hero{
     background-color: #ef82ed;
     flex-basis:50%;
     border:2px solid black;
 }
-
+ /* colori contenitore sezioni */
 .white{
     background-color: #ffffff;
 }
 
 .lightgrey{
     background-color: #d3d3d3;
+}
+
+/* scatole contenute all'interno della seconda sezione */
+
+.square-heavenly{
+    background-color: #1e90ff;
+    flex-basis:40%;
+}
+
+.square-pink{
+    background-color: #ffc0ca;
+    flex-basis:30%;
 }
