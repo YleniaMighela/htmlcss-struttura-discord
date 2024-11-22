@@ -3,3 +3,63 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+/* intestazione */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #add8e7;
+    height:80px;
+     
+}
+
+/* logo */
+
+h1{
+    font-size:20px;
+    /* DEBUG */
+    background-color: #daa51e;
+    border: 2px solid black;
+    height:40px ;
+    width:10%;
+    padding:5px;
+}
+
+/* contenuto di navigazione */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: #daa51e;
+    border: 2px solid black;
+    height:40px;
+    width:80%;
+    
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;   
+}
+
+/* sottolineatura link */
+a{
+    text-decoration: none;
+}
+
+
+/* contenuto di accesso */
+button{
+    /* DEBUG */
+    background-color: #daa51e;
+    border: 2px solid black;
+    height:40px;
+    width:10%;  
+}
