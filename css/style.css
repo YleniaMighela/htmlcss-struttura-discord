@@ -133,3 +133,63 @@ a{
     border:1px solid black;
     
 }
+
+/* sezione footer */
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+    /* DEBUG */
+    background-color: #23272a;
+    padding:40px;
+    height:500px;
+}
+
+#salmon{
+    flex-basis:20% ;
+    /* DEBUG */
+    background-color: #f08180;
+    border:2px solid black;
+    
+}
+
+.acquamarina{
+    flex-basis:10%;
+    /* DEBUG */
+    background-color: #20b3aa;
+    border:2px solid black;
+}
+
+/* barra finale footer */
+#black-footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+    padding:20px;
+    /* DEBUG */
+    background-color: #23272a;
+}
+.container-black-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    height:70px;
+    /* DEBUG */
+    background-color: #7fffd4;
+}
+#logo-footer{
+    padding:5px;
+    /* DEBUG */
+    background-color: #ffb2c7;
+    border:1px solid black;
+    
+}
+
+#bottone{
+    padding:5px;
+    /* DEBUG */
+    background-color: #ffb2c7;
+    border:1px solid black;
+}
