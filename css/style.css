@@ -12,17 +12,17 @@ header{
     padding:20px;
     /* DEBUG */
     background-color: #add8e7;
-   
+    
 }
 .container-header{ 
     display:flex;
     justify-content:space-between;
     padding:5px;
-   /* DEBUG */
-   background-color: #daa51e;
-   height:50px;
-   width:80%;
-   border: 2px solid black;
+    /* DEBUG */
+    background-color: #daa51e;
+    height:50px;
+    width:80%;
+    border: 2px solid black;
     
 }
 
@@ -47,12 +47,11 @@ header{
     align-items:center;
     list-style: none;  
 }
- .link{
+.link{
     flex-basis:30%;
     margin-left:10px;
     
- }
-
+}
 
 /* sottolineatura link */
 a{
@@ -69,7 +68,7 @@ a{
 
 /* blocco principale */
 
- /* regole container */
+/* regole container */
 #container{
     display: flex;
     justify-content: center;
@@ -85,15 +84,16 @@ a{
     justify-content: center;
     padding:40px;
     height:400px;
-
+    
 }
-/* colore contenuto interno prima sezione */
+/* contenuto prima sezione con sfondo blu*/
 .hero{
-    background-color: #ef82ed;
     flex-basis:50%;
+    /* DEBUG */
+    background-color: #ef82ed;
     border:2px solid black;
 }
- /* colori contenitore sezioni */
+/* colori sfondi sezioni 2/3/4 */
 .white{
     background-color: #ffffff;
 }
@@ -102,14 +102,34 @@ a{
     background-color: #d3d3d3;
 }
 
-/* scatole contenute all'interno della seconda sezione */
+/* contenuto 2/3/4 sezione sfondo bianco e grigio */
 
-.square-heavenly{
-    background-color: #1e90ff;
+.square-heavenly{ 
     flex-basis:40%;
+    /* DEBUG */
+    background-color: #1e90ff;
 }
 
 .square-pink{
-    background-color: #ffc0ca;
     flex-basis:30%;
+    /* DEBUG */
+    background-color: #ffc0ca;
+    
+}
+
+/* contenuto sezione cinque */
+#big-square{
+    display: flex;
+    justify-content:center;
+    background-color: #d3d3d3;
+    padding:40px;
+    height:700px;
+}
+
+#square-green{
+    flex-basis:50%;
+    /* DEBUG */
+    background-color: #218b21;
+    border:1px solid black;
+    
 }
