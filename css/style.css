@@ -6,61 +6,65 @@
 
 /* intestazione */
 header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+    padding:20px;
+    /* DEBUG */
     background-color: #add8e7;
-    height:80px;
-     
+   
+}
+.container-header{ 
+    display:flex;
+    justify-content:space-between;
+    padding:5px;
+   /* DEBUG */
+   background-color: #daa51e;
+   height:50px;
+   width:80%;
+   border: 2px solid black;
+    
 }
 
 /* logo */
 
-h1{
-    font-size:20px;
-    /* DEBUG */
-    background-color: #daa51e;
-    border: 2px solid black;
-    height:40px ;
-    width:10%;
-    padding:5px;
+.logo{
+    flex-basis:15%;
+    /* border: 1px solid black; */
+    
 }
 
 /* contenuto di navigazione */
-nav{
+.nav{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    /* DEBUG */
-    background-color: #daa51e;
-    border: 2px solid black;
-    height:40px;
-    width:80%;   
+    /* border: 1px solid black; */
 }
-
-ul{
+.unorderlist{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    list-style: none;  
 }
+ .link{
+    flex-basis:30%;
+    margin-left:10px;
+    
+ }
 
-li{
-    list-style: none;   
-}
 
 /* sottolineatura link */
 a{
     text-decoration: none;
-}
+} 
 
 /* contenuto di accesso */
-button{
-    /* DEBUG */
-    background-color: #daa51e;
-    border: 2px solid black;
-    height:40px;
-    width:10%;  
+.button{
+    flex-basis:15%;
+    /* border: 1px solid black; */
 }
+
 
 
 /* blocco principale */
