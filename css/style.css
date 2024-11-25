@@ -6,10 +6,8 @@
 
 /* intestazione */
 header{
-    display:flex;
-    justify-content:space-around;
-    align-items:center; 
-    padding:20px;
+    padding:20px; 
+    height: 80px;
     /* DEBUG */
     background-color: #add8e7;
     
@@ -17,40 +15,37 @@ header{
 .container-header{ 
     display:flex;
     justify-content:space-between;
+    align-items: center;
+    width:80%;
+    margin:auto;
     padding:5px;
     /* DEBUG */
     background-color: #daa51e;
-    height:50px;
-    width:80%;
-    border: 2px solid black;
+    height:100%;
+    border:2px solid black;
     
 }
 
 /* logo */
 
 .logo{
-    flex-basis:15%;
-    /* border: 1px solid black; */
-    
+    width:20%;
+    padding:10px; 
 }
 
 /* contenuto di navigazione */
-.nav{
+.link{
     display: flex;
     justify-content:center;
     align-items: center;
-    /* border: 1px solid black; */
+    width:60%;
+    
 }
 .unorderlist{
     display: flex;
     justify-content:center;
     align-items:center;
-    list-style: none;  
-}
-.link{
-    flex-basis:30%;
-    margin-left:10px;
-    
+    list-style-type: none;  
 }
 
 /* sottolineatura link */
@@ -60,11 +55,11 @@ a{
 
 /* contenuto di accesso */
 .button{
-    flex-basis:15%;
-    /* border: 1px solid black; */
+    width:20%;
+    padding: 10px;
+    text-align:right;
+    
 }
-
-
 
 /* blocco principale */
 
@@ -72,10 +67,21 @@ a{
 #container{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #00018b;
     padding:40px;
     height:400px;
-    /* min-width: 300px; */
+    width: 100%;
+    border:2px solid black;
+}
+
+/* contenuto prima sezione con sfondo blu*/
+.hero{
+    width:60%;
+    padding:150px;
+    /* DEBUG */
+    height:100%;
+    background-color: #ef82ed;
     border:2px solid black;
 }
 
@@ -86,13 +92,7 @@ a{
     height:400px;
     
 }
-/* contenuto prima sezione con sfondo blu*/
-.hero{
-    flex-basis:50%;
-    /* DEBUG */
-    background-color: #ef82ed;
-    border:2px solid black;
-}
+
 /* colori sfondi sezioni 2/3/4 */
 .white{
     background-color: #ffffff;
@@ -124,6 +124,7 @@ a{
     background-color: #d3d3d3;
     padding:40px;
     height:700px;
+    width: auto;
 }
 
 #square-green{
@@ -144,6 +145,7 @@ a{
     background-color: #23272a;
     padding:40px;
     height:500px;
+    width: auto;
 }
 
 #salmon{
